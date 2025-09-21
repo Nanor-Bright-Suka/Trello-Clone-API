@@ -4,13 +4,13 @@
 
 A RESTful API backend for a Trello-like project management application.
 Built with Node.js, Express, Typescript and Prisma.
-This API allows users to manage Boards, Lists, and Tasks with full CRUD operations and authentication.
+This API allows users to manage Boards, Lists, and Card with full CRUD operations and authentication.
 
 ================================================================================
 
 Features:
   - User registration and authentication (JWT-based)
-  - Create, Read, Update, Delete Boards, Lists, and Tasks
+  - Create, Read, Update, Delete Boards, Lists, and Cards
 
 
 ================================================================================
@@ -36,11 +36,10 @@ Getting_Started:
   Installation:
     1. Clone the repository:
       git clone 
-    2. Navigate to the project:
-       cd trello-clone-backend
-    3. Install dependencies:
+   
+    2. Install dependencies:
        npm install
-    4. Start the development server:
+    3. Start the development server:
        npm run dev
 
 ================================================================================
@@ -51,7 +50,7 @@ API_Endpoints:
 app.use("/api/v1/auth", authRoutes)
 
 router.post('/register', validateRegisterUser, register);
-  
+
 Parameters (username, password, email)
 router.post('/login',validateLoginUser, login);Parameters (email, password)
 
@@ -166,4 +165,4 @@ Contributing:
 ================================================================================
 
 License:
-  MIT License © Nanor Bright Suka && Tetteh Raphael
+  MIT License © Nanor Bright Suka 
