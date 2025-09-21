@@ -1,4 +1,3 @@
-# Backend folder
 
 # Trello_Clone_Backend
 
