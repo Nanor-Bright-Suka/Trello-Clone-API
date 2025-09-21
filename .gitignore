@@ -1,0 +1,50 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+# Node modules (always exclude, huge size)
+node_modules/
+
+# Environment variables (contains secrets like DB credentials)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (if using TypeScript or compiled code)
+dist/
+build/
+
+# Prisma generated client (optional, you can regenerate)
+prisma/generated/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files (optional, for VSCode or JetBrains)
+.vscode/
+.idea/
+
+# npm or yarn lock (optional: keep or ignore based on workflow)
+ package-lock.json
+# yarn.lock
+
+node_modules/
+prisma/generated/
+dist/
+build/
+
+
+
+
+  {
+  "boardName": "My First Board",
+  "background_color": "red",
+  "background_image": null
+}
